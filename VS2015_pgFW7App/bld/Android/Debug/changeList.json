@@ -114,25 +114,19 @@
     "res\\screens\\windows\\SplashScreen.scale-100.png",
     "res\\screens\\ios\\screen-iphone-portrait-736h.png",
     "res\\screens\\ios\\screen-ipad-portrait.png",
+    "www\\slider.html",
     "www\\img\\i-form-settings-ios.svg",
     "plugins\\cordova-plugin-whitelist\\RELEASENOTES.md",
     "res\\screens\\android\\screen-xhdpi-landscape.png",
     "plugins\\cordova-plugin-whitelist\\src\\ios\\CDVNavigationWhitelistPlugin.m",
     "plugins\\cordova-plugin-whitelist\\README.md",
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
-    "res\\screens\\android\\screen-mdpi-portrait.png",
-    "www\\css\\my-app.css~RF37945b8.TMP",
-    "www\\css\\my-app.css~RF3794903.TMP"
+    "res\\screens\\android\\screen-mdpi-portrait.png"
   ],
   "deletedFilesIos": [],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
-  "changedFiles": [
-    "www\\css\\my-app.css",
-    "www\\css\\my-app.css~RF37945b8.TMP",
-    "www\\css\\my-app.css~RF3794903.TMP",
-    "www\\index.html"
-  ],
+  "changedFiles": [],
   "deletedFiles": [],
   "addedPlugins": [],
   "deletedPlugins": []
