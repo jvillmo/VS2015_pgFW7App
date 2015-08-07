@@ -1,5 +1,7 @@
 // Initialize your app
-var myApp = new Framework7();
+var myApp = new Framework7({
+    swipePanel: 'left'
+});
 
 // Export selectors engine
 var $$ = Dom7;
@@ -17,6 +19,20 @@ myApp.onPageInit('about', function (page) {
         createContentPage();
     });
 });
+
+myApp.onPageInit('slider', function (page) {
+    // Init slider and store its instance in mySwiper variable
+    var mySwiper = myApp.swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+    });
+});
+
+// Callbacks to run specific code for specific pages, for example for About page:
+myApp.onPageInit('*', function (page) {
+    // run createContentPage func after link was clicked
+    console.log("hola mundo");
+});
+
 
 // Generate dynamic page
 var dynamicPageIndex = 0;
